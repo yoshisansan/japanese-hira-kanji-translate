@@ -1,0 +1,16 @@
+{
+  "name": "suggest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "hira": "node -r dotenv/config HiraganaAPI/app.js",
+    "kanji": "node -r dotenv/config KanaKanjiAPI/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
